@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Entities
+namespace SimplyTheBest.Dtos    
 {
-    public class User
+    public class UserDto
     {
         public int Id { get; set; }
 
@@ -13,13 +13,6 @@ namespace Entities
 
         public string Email { get; set; }
 
-        public string Password { get; set; }
-
-        public string HashPassword { get; set; }
-
-        public string SaltPassword { get; set; }
-
         public string Role { get; set; }
-
     }
 }
